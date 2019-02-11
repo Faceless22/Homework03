@@ -1,0 +1,36 @@
+body{
+    background: url(as.png) no-repeat;
+    background-size: 100%;
+}
+
+#Menu{
+    margin: 15px;
+}
+
+.menuboard{
+    list-style-type: none;
+    background: rgb(177, 175, 175);
+border: solid 3px black;
+border-radius: 100px 2px 59px 2px;
+width: 300px;
+padding: 5px;
+font-size: 15px;
+}
+
+.menu{
+    border: solid 1px rgb(51, 46, 46);
+margin-left: 3%;
+border-radius: 100px 55px 100px 55px;
+margin-top: 3%;
+padding: 1%;
+}
+
+.undermenu{
+    list-style-type: none;
+color: red;
+background: plum;
+border: solid 1px plum;
+border-radius: 59px 31px 15px 30px;
+margin-left: 10%;
+padding: 1%;
+}
