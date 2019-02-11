@@ -1,9 +1,71 @@
-h1 + p {
-    font-size: 10px;
-    color: violet;
-    border: 1px solid
+.border{
+    align-content: center;
+    margin: 0 auto;
+    width: 700px;
+    background: green;
+    border: solid 8px black;
+    border-radius: 25px;
+    }
+
+#Month{
+    padding: 13px;
+    background: brown;
+    border: solid 1px black;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    text-align: center;
 }
 
-h1 ~ p {
-    font-size: 50px;
+.table{
+    border: solid 1px black;
+    height: 398px;
+    font-size: 150%;
+}
+
+.dayweek{
+    background: rgb(121, 78, 78);
+    border: solid 1px black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 97.7px;
+    text-align: center;
+    font-weight: 900;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 13px;
+}
+
+.thismonth{
+    background: whitesmoke;
+    border: solid 1px black;
+    border-radius: 25px;
+    width: 97.7px;
+    text-align: center;
+    font-weight: 700;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 13px;
+}
+
+.output{
+    background: rgb(211, 17, 17);
+    border: solid 1px black;
+    border-radius: 25px;
+    width: 97.7px;
+    text-align: center;
+    font-weight: 700;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 13px;
+}
+
+.othermonth{
+    background: rgb(112, 112, 112);
+    border: solid 1px black;
+    border-radius: 25px;
+    width: 97.7px;
+    text-align: center;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 13px;
 }
